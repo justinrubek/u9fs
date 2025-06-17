@@ -15,7 +15,7 @@ fcallconv(va_list *arg, Fconv *f1)
 {
 	Fcall *f;
 	int fid, type, tag, n, i;
-	char buf[512], tmp[200];
+	char buf[4096], tmp[4096];
 	Dir *d;
 	Qid *q;
 
